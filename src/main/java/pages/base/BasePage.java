@@ -11,7 +11,7 @@ import java.time.Duration;
 import constants.locators.BasePageLocators;
 public class BasePage {
     protected WebDriver driver;
-    private By iconHomePage = By.xpath(BasePageLocators.ICON_RELATIVE_XPATH);
+    private By iconHomePage = By.xpath(BasePageLocators.ICON_RELATIVE_CSS_SELECTOR);
     private By signOutButton = By.linkText(BasePageLocators.SIGN_OUT_LINK_TEXT);
 
     public LoginPage clickSignOut(){
